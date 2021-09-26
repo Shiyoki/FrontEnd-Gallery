@@ -35,7 +35,7 @@ information.append('creator', creator)
 information.append('tags', tags)
 information.append('selectedFile', selected)
 
-const url="http://localhost:5000/posts"
+const url="https://shiyogallery-backend.herokuapp.com/posts"
 const handleEventPost = async()=>{
     await axios.post(url, information)
     .then(response=>{

@@ -10,7 +10,7 @@ export default function Cards(){
         getData()
     },[])
     
-    const url = 'http://localhost:5000/posts/'
+    const url = 'https://shiyogallery-backend.herokuapp.com/posts/'
     const getData = async()=>{
         await axios.get(url)
     .then(response=>{
