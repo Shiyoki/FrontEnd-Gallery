@@ -5,7 +5,7 @@ export default function Routes(){
     return(
         <Router>
             <Switch>
-                <Route path="/" exact>
+                <Route path="/home" exact>
                     <Repository />
                 </Route>
                 <Route path="/upload" exact>
